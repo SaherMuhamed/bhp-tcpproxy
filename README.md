@@ -24,7 +24,7 @@ python3 ./proxy.py 127.0.0.1 7000 10.7.78.1 8000 True
 ```
 
 ## Screenshot
-![](screenshots\Screenshot_2024-04-25.png)
+![](https://github.com/SaherMuhamed/bhp-proxy/blob/main/screenshots/Screenshot_2024-04-25.png)
 
 ## Features
 
