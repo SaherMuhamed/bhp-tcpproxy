@@ -48,6 +48,7 @@ You can customize the behavior of the proxy by modifying the `request_handler` a
 
 ## Acknowledgement
 **This python script provided by Black Hat Python - 2nd Edition book for self learning**
+
 ## Disclaimer
 
 This script is provided for educational and testing purposes only. Use it responsibly and ensure that you have appropriate authorization before intercepting and modifying network traffic.
