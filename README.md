@@ -9,7 +9,7 @@ This Python script acts as a simple TCP proxy. It allows you to intercept and mo
 To use the script, run it from the command line with the following arguments:
 
 ```bash
-python3 ./proxy.py [localhost] [localport] [remotehost] [remoteport] [receive_first]
+python3 proxy.py [localhost] [localport] [remotehost] [remoteport] [receive_first]
 ```
 
 - `[localhost]`: The local host IP address.
@@ -20,7 +20,7 @@ python3 ./proxy.py [localhost] [localport] [remotehost] [remoteport] [receive_fi
 
 Example:
 ```bash
-python3 ./proxy.py 127.0.0.1 7000 10.7.78.1 8000 True
+python3 proxy.py 127.0.0.1 21 10.7.78.1 21 True
 ```
 
 ## Screenshot
@@ -37,6 +37,8 @@ python3 ./proxy.py 127.0.0.1 7000 10.7.78.1 8000 True
 1. The proxy listens for incoming connections on the specified local port.
 2. When a connection is received, it establishes a connection to the remote server.
 3. It forwards data between the local client and the remote server, optionally allowing packet inspection and modification.
+
+**Note:** must use `binary` mode to transfer files.
 
 ## Customization
 
